@@ -1,0 +1,29 @@
+int main(/* comments */) {
+    return 0; // hello
+}
+/* comment1 */
+// hello
+/* 
+    hello, world
+    this
+    is
+    a 
+    multiple
+    lines 
+    of 
+    comments
+*/
+
+
+int a = 0; /* 
+    hello, world
+    this
+    is 
+    another
+    multiple
+    lines 
+    of  comments 
+               */int b = 0;    /* helelo
+
+  hhijsf
+  */
