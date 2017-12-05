@@ -88,10 +88,8 @@ int main() {
             if (state == IN && isCommentEnd(Buffer, i)) { // multiple comments found here                            
                 // condition
                 // */ int b = 0;
-                state = OUT;
-                // @todo something wrong here...
-                // remove chars from index 0 to i+2 
-                //removeComments(Buffer, 0, i+2); 
+                state = OUT;                
+                /* remove character from 0 to i+2 */
                 removeCommentsOfSize(Buffer, 0, i+2, len);
                 i = 0; /* important restart to scan comment flag */
 
