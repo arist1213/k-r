@@ -13,7 +13,7 @@ int bitcount(unsigned x) {
 /* 
 fast version of count bits
 x&=(x-1) 
-1. 当x是奇数 x-1 == x&(x-1) 效果相同
+1. 当x是奇数 x-1 == x&(x-1) 效果相同, 特别的如果只剩1bit，则x=0;参考8,16,32...
 2. 当x是偶数 会清除最右边的1-bit
 
 python
