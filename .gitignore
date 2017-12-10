@@ -1,4 +1,5 @@
 test-*/*
 chapter-*/*.out
+chapter-*/*.txt
 output_file.php
 .DS_Store

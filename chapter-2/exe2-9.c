@@ -134,9 +134,12 @@ int bitcount2(unsigned x) {
 }
 
 int main(int argc, char *argv[]) {
+    
     unsigned x = strtol(argv[1], NULL, 10);
     printf("%d\n", x);
     printf("%d\n", bitcount(x));
     printf("%d\n", bitcount2(x));
+
+
     return 0;
 }
